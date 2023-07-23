@@ -60,23 +60,21 @@
 
 header {
     height: 60px;
-    position: fixed;
     background-color: #fff;
     width: 100%;
-    overflow: hidden;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
-    z-index: 10000000;
 
 }
 
 header nav .nav-item ul {
+    margin: 0px;
     display: flex;
-   
+   gap: 1.2rem;
 }
 
 header nav ul li {
@@ -87,7 +85,6 @@ header nav ul li {
 
 header nav a {
     text-decoration: none;
-    margin-left: 20px;
     color: #090a0c;
     text-transform: lowercase;
     align-items: baseline;
